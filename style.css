@@ -1,0 +1,87 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body.light {
+    background-color: #f9f9f9;
+    color: #222;
+}
+
+body.dark {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #0077cc;
+    color: white;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.menu-icon {
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.theme-toggle {
+    cursor: pointer;
+}
+
+.popup-menu {
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    z-index: 999;
+}
+
+.popup-menu ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.popup-menu ul li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.popup-menu.hidden {
+    display: none;
+}
+
+.section {
+    padding: 4rem 2rem;
+    min-height: 100vh;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #e3f2fd, #ffffff);
+}
+
+.hero-image img {
+    max-width: 300px;
+    border-radius: 12px;
+}
+
+a {
+    color: #0077cc;
+    text-decoration: none;
+}

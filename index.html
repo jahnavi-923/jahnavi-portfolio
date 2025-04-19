@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jahnavi Tulluru</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body class="light">
+    <header class="navbar">
+        <div class="logo">Jahnavi Tulluru</div>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        <div class="theme-toggle" onclick="toggleTheme()">🌓</div>
+    </header>
+
+    <nav id="popupMenu" class="popup-menu hidden">
+        <ul>
+            <li onclick="goToSection('home')">Home</li>
+            <li onclick="goToSection('about')">About</li>
+            <li onclick="goToSection('education')">Education</li>
+            <li onclick="goToSection('skills')">Skills</li>
+            <li onclick="goToSection('projects')">Projects</li>
+            <li onclick="goToSection('certifications')">Certifications</li>
+            <li onclick="goToSection('internships')">Internships</li>
+            <li onclick="goToSection('activities')">Activities</li>
+            <li onclick="goToSection('contact')">Contact</li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home" class="section hero">
+            <div class="hero-text">
+                <h1>Hello, I'm Jahnavi</h1>
+                <p>I'm a driven and enthusiastic individual, always striving to learn, grow, and achieve my goals!</p>
+            </div>
+            <div class="hero-image">
+                <img src="image.png" alt="Jahnavi's photo" />
+            </div>
+        </section>
+        <section id="about" class="section"><h2>About</h2></section>
+        <section id="education" class="section"><h2>Education</h2></section>
+        <section id="skills" class="section"><h2>Skills</h2></section>
+        <section id="projects" class="section"><h2>Projects</h2></section>
+        <section id="certifications" class="section">
+            <h2>Certifications</h2>
+            <p>View all certifications on <a href="https://linkedin.com/in/jahnavitulluru" target="_blank">LinkedIn</a>.</p>
+        </section>
+        <section id="internships" class="section"><h2>Internships</h2></section>
+        <section id="activities" class="section"><h2>Activities</h2></section>
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>Email: janutulluru923@gmail.com</p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/jahnavitulluru" target="_blank">jahnavitulluru</a></p>
+            <p>GitHub: <a href="https://github.com/jahnavi-923" target="_blank">jahnavi-923</a></p>
+            <p>LeetCode: <a href="https://leetcode.com/u/unaj_/" target="_blank">unaj_</a></p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
